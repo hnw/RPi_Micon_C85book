@@ -8,7 +8,7 @@ SECTIONS
 	. = ALIGN(4);
 
 	__rodata_start = .;
-	.rodata : { *(.data*) }
+	.rodata : { *(.rodata*) }
 	. = ALIGN(4);
 	__rodata_end = .;
 
